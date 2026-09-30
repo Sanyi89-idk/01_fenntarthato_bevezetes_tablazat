@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+table , th ,td {
+    border: 1px solid gray;
+}
+th, td{
+    padding: 5px;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

@@ -4,6 +4,7 @@
 
 table , th ,td {
     border: 1px solid gray;
+    border-collapse: collapse;
 }
 th, td{
     padding: 5px;
@@ -13,5 +14,26 @@ table{
     width: 80%;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+caption{
+    text-align: left;
+    border: 1px solid black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px;
+}
+
+th {
+    background-color: #18352f;
+    color: #f8faf3;
+}
+
+tr:nth-child(odd){
+    background-color: #dce6db;
+}
+
+tr:nth-child(even){
+    background-color: #f8faf3;
 }
 

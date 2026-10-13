@@ -2,16 +2,45 @@
     box-sizing: border-box;
 }
 
+.zölddoboz{
+    background-color: #145c4e;
+    color: white;
+    padding: 60px 40px;
+    border-radius: 12px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.elsosor{
+    color: #c8e67a;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.harmadiksor{
+    color: #f8faf3;
+    max-width: 620px;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 table , th ,td {
     border: 1px solid gray;
     border-collapse: collapse;
 }
 th, td{
-    padding: 5px;
+    padding: 8px;
 }
 
 table{
-    width: 80%;
+    width: 100%;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -37,3 +66,43 @@ tr:nth-child(even){
     background-color: #f8faf3;
 }
 
+p{
+    color: #c8e67a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kártya-konténer{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(88, 85, 90);
+}
+
+.kártya{
+    background-color: white;
+    border: 2px solid #0cac8c;
+    color: #333333;
+    flex: 1;
+    padding: 2px;
+    border-radius: 8px;
+    width: 220px;
+}
+
+.kártya h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:darkgrey
+    font-size 6px;
+    font-weight: bold;
+
+}    
+
+h4{
+    color: #a8a2a2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
